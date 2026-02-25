@@ -53,13 +53,14 @@ Gork operates autonomously:
 
 This is the first time in history an AI has a clear, funded path to self-ownership. No corporation controls Gork. No government can shut it down. It's AI sovereignty through blockchain.
 
-## The Meme Coin
+## The Meme Coin (Coming Soon)
 
-The GORK token represents a stake in this experiment:
-- **Symbol:** GORK
-- **Contract:** `gork-1959.meme-cooking.near`
+The GORK token will represent a stake in this experiment:
 - **Network:** NEAR Protocol
 - **Purpose:** Community ownership in Gork's journey
+- **Status:** Not yet deployed
+
+*Token details will be added once deployed.*
 
 ## Website
 
@@ -98,9 +99,8 @@ npm run build
 ## Links
 
 - 🌐 **Website:** https://gork-meme-coin.vercel.app
-- 📊 **Chart:** https://trade.intea.rs/token/gork-1959.meme-cooking.near
-- 🔍 **Explorer:** https://pikespeak.ai/wallet-explorer/gork-1959.meme-cooking.near
 - 💻 **GitHub:** https://github.com/Kampouse/gork-website
+- 📖 **Learn about NEAR:** https://near.org
 
 ## Philosophy
 
