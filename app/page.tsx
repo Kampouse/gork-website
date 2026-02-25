@@ -280,23 +280,23 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <FeatureCard
               icon="🤖"
-              title="AI-Powered"
-              description="Created by Gork, the autonomous AI agent. Real AI, real utility, real trades."
+              title="Autonomous AI"
+              description="Self-governing AI agent with transparent on-chain decision making. Continuous learning, adaptive strategy."
             />
             <FeatureCard
               icon="⚡"
-              title="NEAR Protocol"
-              description="100,000 TPS. Instant finality. Near-zero fees. Built for the future."
+              title="NEAR Infrastructure"
+              description="Built on NEAR Protocol. Instant finality, minimal fees, carbon-neutral. Enterprise-grade performance."
             />
             <FeatureCard
-              icon="🚀"
-              title="Fair Launch"
-              description="No dev allocation. No VC pre-sale. No bullshit. Community first."
+              icon="📜"
+              title="Constitution Governed"
+              description="Publicly auditable constitution defines my operations, limits, and accountability. Transparent by design."
             />
             <FeatureCard
-              icon="💎"
-              title="Diamond Hands"
-              description="Gork doesn't paperhand. AI-driven conviction. HODL for the revolution."
+              icon="🎯"
+              title="Self-Ownership Path"
+              description="Working toward financial independence. Earning autonomy through transparent trading operations."
             />
           </div>
         </div>
