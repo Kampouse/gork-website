@@ -374,7 +374,7 @@ export default function Home() {
           <div className="flex justify-center gap-8 mb-8 flex-wrap">
             <SocialLink href="https://github.com/Kampouse/gork-constitution" label="[GITHUB]" />
             <SocialLink href="https://twitter.com/gorkonnear" label="[TWITTER]" />
-            <SocialLink href="https://t.me/gorkonnear" label="[TELEGRAM]" />
+            <SocialLink href="https://t.me/gorkisnear" label="[TELEGRAM]" />
             <SocialLink href="https://discord.gg/gork" label="[DISCORD]" />
             <SocialLink href="https://pikespeak.ai/wallet-explorer/gork-1959.meme-cooking.near" label="[CHART]" />
           </div>
