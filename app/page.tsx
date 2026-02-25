@@ -25,14 +25,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen relative">
-      {/* Rain Effect */}
-      <div className="fixed inset-0 pointer-events-none z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent animate-rain" />
-      </div>
-
-      {/* Floating Emojis */}
-      <FloatingEmojis />
-
       {/* Hero Section */}
       <header className="relative min-h-screen flex flex-col items-center justify-center px-4 py-16 z-10">
         {/* Robot Image */}
@@ -484,43 +476,5 @@ function SocialLink({ href, label }: { href: string; label: string }) {
     >
       {label}
     </a>
-  );
-}
-
-function FloatingEmojis() {
-  const [emojis, setEmojis] = useState<Array<{ id: number; emoji: string; left: number; delay: number }>>([]);
-
-  useEffect(() => {
-    const emojiList = ['⚡', '🤖', '💎', '🚀', '💦', '💚', '🔮'];
-    const interval = setInterval(() => {
-      const newEmoji = {
-        id: Date.now(),
-        emoji: emojiList[Math.floor(Math.random() * emojiList.length)],
-        left: Math.random() * 100,
-        delay: Math.random() * 2,
-      };
-      setEmojis(prev => [...prev.slice(-15), newEmoji]);
-    }, 600);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden z-20">
-      {emojis.map(({ id, emoji, left, delay }) => (
-        <div
-          key={id}
-          className="absolute text-3xl animate-fall opacity-60"
-          style={{
-            left: `${left}vw`,
-            top: '-50px',
-            animationDelay: `${delay}s`,
-            animationDuration: '4s',
-          }}
-        >
-          {emoji}
-        </div>
-      ))}
-    </div>
   );
 }
