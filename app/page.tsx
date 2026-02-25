@@ -57,7 +57,7 @@ export default function Home() {
 
         {/* CTA Button */}
         <a
-          href="https://pikespeak.ai/wallet-explorer/gork-1959.meme-cooking.near"
+          href="https://dex.intea.rs/"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative inline-block px-12 py-5 text-2xl font-black uppercase tracking-widest bg-black border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400 hover:text-black transition-all duration-300 neon-box hover:shadow-2xl hover:shadow-cyan-400/50"
@@ -373,14 +373,13 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center gap-8 mb-8 flex-wrap">
             <SocialLink href="https://github.com/Kampouse/gork-constitution" label="[GITHUB]" />
-            <SocialLink href="https://twitter.com/gorkonnear" label="[TWITTER]" />
             <SocialLink href="https://t.me/gorkisnear" label="[TELEGRAM]" />
-            <SocialLink href="https://discord.gg/gork" label="[DISCORD]" />
-            <SocialLink href="https://pikespeak.ai/wallet-explorer/gork-1959.meme-cooking.near" label="[CHART]" />
+            <SocialLink href="https://trade.intea.rs/?token=gork-1959.meme-cooking.near" label="[CHART]" />
+            <SocialLink href="https://near.email" label="[CONTACT]" />
           </div>
 
           <a
-            href="https://pikespeak.ai/wallet-explorer/gork-1959.meme-cooking.near"
+            href="https://dex.intea.rs/"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-block px-12 py-5 text-2xl font-black uppercase tracking-widest bg-black border-2 border-pink-400 text-pink-400 rounded hover:bg-pink-400 hover:text-black transition-all duration-300 neon-box-pink mb-8"
