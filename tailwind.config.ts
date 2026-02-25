@@ -15,7 +15,8 @@ export default {
       animation: {
         'float': 'float 3s ease-in-out infinite',
         'bounce-slow': 'bounce 2s infinite',
-        'fall': 'fall 3s linear forwards',
+        'fall': 'fall 4s linear forwards',
+        'rain': 'rain 0.5s linear infinite',
       },
       keyframes: {
         float: {

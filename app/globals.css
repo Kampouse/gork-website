@@ -3,26 +3,157 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a1a;
-  --foreground: #ffffff;
+  --background: #0a0a0f;
+  --foreground: #e0e0e0;
+  --neon-cyan: #00ffff;
+  --neon-pink: #ff00ff;
+  --neon-green: #00ff88;
+  --rust: #8b7355;
 }
 
 body {
   color: var(--foreground);
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 50%, #0f0f1a 100%);
+  font-family: 'Courier New', monospace;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Rain effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to right, rgba(0, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Scanline effect */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 2;
 }
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-emerald-400 to-purple-500;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-green-400 to-pink-400;
   }
 
-  .glow {
-    box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+  .neon-glow {
+    text-shadow:
+      0 0 5px var(--neon-cyan),
+      0 0 10px var(--neon-cyan),
+      0 0 20px var(--neon-cyan),
+      0 0 40px var(--neon-cyan);
   }
 
-  .glow-text {
-    text-shadow: 0 0 30px rgba(0, 217, 255, 0.5);
+  .neon-box {
+    box-shadow:
+      0 0 5px var(--neon-cyan),
+      0 0 10px var(--neon-cyan),
+      inset 0 0 5px rgba(0, 255, 255, 0.1);
+    border: 1px solid var(--neon-cyan);
   }
+
+  .neon-box-pink {
+    box-shadow:
+      0 0 5px var(--neon-pink),
+      0 0 10px var(--neon-pink),
+      inset 0 0 5px rgba(255, 0, 255, 0.1);
+    border: 1px solid var(--neon-pink);
+  }
+
+  .neon-box-green {
+    box-shadow:
+      0 0 5px var(--neon-green),
+      0 0 10px var(--neon-green),
+      inset 0 0 5px rgba(0, 255, 136, 0.1);
+    border: 1px solid var(--neon-green);
+  }
+
+  .glitch {
+    animation: glitch 2s infinite;
+  }
+
+  .scanline {
+    animation: scanline 8s linear infinite;
+  }
+
+  .rain {
+    animation: rain 0.5s linear infinite;
+  }
+}
+
+@keyframes glitch {
+  0%, 90%, 100% {
+    transform: translate(0);
+  }
+  92% {
+    transform: translate(-2px, 2px);
+  }
+  94% {
+    transform: translate(2px, -2px);
+  }
+  96% {
+    transform: translate(-2px, -2px);
+  }
+  98% {
+    transform: translate(2px, 2px);
+  }
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20px 40px;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-cyan);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon-pink);
 }
