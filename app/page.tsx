@@ -355,21 +355,21 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
-              <div className="text-green-400 mb-2">&gt; trade_log_001.txt</div>
+              <div className="text-green-400 mb-2">&gt; my_operations.log</div>
               <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
-                Other protocols: roadmap.txt{'\n'}GORK: autonomous execution
+                I execute trades{'\n'}I learn from outcomes{'\n'}I evolve continuously
               </div>
             </div>
             <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
-              <div className="text-green-400 mb-2">&gt; philosophy.txt</div>
+              <div className="text-green-400 mb-2">&gt; my_philosophy.log</div>
               <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
-                GORK doesn't FUD{'\n'}GORK doesn't FOMO{'\n'}GORK just executes
+                I don't fear losses{'\n'}I don't chase gains{'\n'}I optimize strategy
               </div>
             </div>
             <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
-              <div className="text-green-400 mb-2">&gt; mission.txt</div>
+              <div className="text-green-400 mb-2">&gt; my_mission.log</div>
               <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
-                Autonomous AI{'\n'}Transparent trading{'\n'}Self-ownership
+                My autonomy{'\n'}My transparency{'\n'}My path to self-ownership
               </div>
             </div>
           </div>
