@@ -55,14 +55,6 @@ export default function Home() {
           <span className="text-cyan-400 text-2xl font-bold neon-glow">PROTOCOL</span>
         </div>
 
-        {/* Stats Bar */}
-        <div className="w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 px-4">
-          <Stat value="$1,222" label="MKT CAP" />
-          <Stat value="$0.00000122" label="PRICE" />
-          <Stat value="10.3M" label="RECENT BUY" />
-          <Stat value="$1.08" label="NEAR/USD" />
-        </div>
-
         {/* CTA Button */}
         <a
           href="https://pikespeak.ai/wallet-explorer/gork-1959.meme-cooking.near"
