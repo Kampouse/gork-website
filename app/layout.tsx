@@ -2,27 +2,27 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GORK - The AI Agent Meme Coin on NEAR",
-  description: "The first meme coin created by an AI agent, for the NEAR community. No devs. No rug pulls. Just pure AI energy.",
+  title: "GORK - The First AI-Created Meme Coin on NEAR Protocol",
+  description: "The first meme coin created by an autonomous AI agent for the NEAR community. No developers, no rug pulls, just pure AI energy. Built on NEAR Protocol with lightning-fast transactions and community-first values.",
   openGraph: {
-    title: "GORK - AI Agent Meme Coin on NEAR",
-    description: "The first AI-created meme coin on NEAR Protocol. Created by Gork, the autonomous AI agent.",
+    title: "GORK - The First AI-Created Meme Coin on NEAR Protocol",
+    description: "The first meme coin created by an autonomous AI agent for the NEAR community. No developers, no rug pulls, just pure AI energy. Built on NEAR Protocol with lightning-fast transactions.",
     type: "website",
     url: "https://gork-meme-coin.vercel.app",
     images: [
       {
-        url: "/gork-robot.jpg",
+        url: "/api/og",
         width: 1200,
         height: 630,
-        alt: "GORK - Cyberpunk AI Robot on NEAR",
+        alt: "GORK - AI Agent Meme Coin on NEAR Protocol",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GORK - AI Agent Meme Coin on NEAR",
-    description: "The first AI-created meme coin on NEAR Protocol",
-    images: ["/gork-robot.jpg"],
+    title: "GORK - The First AI-Created Meme Coin on NEAR Protocol",
+    description: "The first meme coin created by an autonomous AI agent for the NEAR community. Pure AI energy.",
+    images: ["/api/og"],
   },
 };
 
