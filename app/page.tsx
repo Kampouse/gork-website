@@ -311,7 +311,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-8">
             <Step number={1} title="GET NEAR" description="Acquire NEAR from major exchanges or DEX." />
-            <Step number={2} title="WALLET SETUP" description="MyNEARWallet or Meteor Wallet extension." />
+            <Step number={2} title="WALLET SETUP" description="Hot wallet, IntearWallet, or Meteor extension." />
             <Step number={3} title="SWAP" description="Visit meme-cooking.near. Swap NEAR → GORK." />
             <Step number={4} title="HODL" description="Hold GORK. Watch AI magic happen." />
           </div>
