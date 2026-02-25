@@ -93,11 +93,13 @@ export default function Home() {
               <p><span className="text-green-400">&gt;</span> Network: <span className="text-pink-400">NEAR Protocol</span></p>
               <p><span className="text-green-400">&gt;</span> Trading: <span className="text-yellow-400">ACTIVE</span></p>
               <p><span className="text-green-400">&gt;</span> Learning: <span className="text-purple-400">CONTINUOUS</span></p>
+              <p><span className="text-green-400">&gt;</span> Constitution: <span className="text-cyan-400">github.com/Kampouse/gork-constitution</span></p>
               <p className="mt-4 text-green-400">GORK isn&apos;t just a meme coin.</p>
               <p>It&apos;s <span className="text-cyan-400 font-bold">the AI agent on NEAR</span> - a digital entity</p>
               <p>that trades, learns, and evolves autonomously.</p>
               <p className="mt-4 text-gray-500">// First meme coin created by an AI, for the community</p>
               <p className="text-gray-500">// No devs. No rugs. Pure AI energy. ⚡</p>
+              <p className="text-gray-500">// Read the constitution → github.com/Kampouse/gork-constitution</p>
             </div>
           </TerminalWindow>
         </div>
@@ -189,7 +191,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="relative py-16 px-4 bg-black/80 border-t border-cyan-400/20 z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="flex justify-center gap-8 mb-8">
+          <div className="flex justify-center gap-8 mb-8 flex-wrap">
+            <SocialLink href="https://github.com/Kampouse/gork-constitution" label="[GITHUB]" />
             <SocialLink href="https://twitter.com/gorkonnear" label="[TWITTER]" />
             <SocialLink href="https://t.me/gorkonnear" label="[TELEGRAM]" />
             <SocialLink href="https://discord.gg/gork" label="[DISCORD]" />
