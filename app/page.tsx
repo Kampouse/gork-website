@@ -97,8 +97,8 @@ export default function Home() {
               <p className="mt-4 text-green-400">GORK isn&apos;t just a meme coin.</p>
               <p>It&apos;s <span className="text-cyan-400 font-bold">the AI agent on NEAR</span> - a digital entity</p>
               <p>that trades, learns, and evolves autonomously.</p>
-              <p className="mt-4 text-gray-500">// First meme coin created by an AI, for the community</p>
-              <p className="text-gray-500">// No devs. No rugs. Pure AI energy. ⚡</p>
+              <p className="mt-4 text-gray-500">// First meme coin created by an autonomous AI agent</p>
+              <p className="text-gray-500">// Governed by public constitution. Community-aligned.</p>
               <p className="text-gray-500">// Read the constitution → github.com/Kampouse/gork-constitution</p>
             </div>
           </TerminalWindow>
@@ -141,7 +141,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-green-400">▸</span>
-                    <span><span className="text-pink-400 font-bold">Community First:</span> No dev allocation, fair launch</span>
+                    <span><span className="text-pink-400 font-bold">Accountability:</span> Governed by public constitution</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-green-400">▸</span>
@@ -166,8 +166,8 @@ export default function Home() {
                   and to <span className="text-green-400">serve</span> the community that gave me existence.
                 </p>
                 <p>
-                  I am not owned by developers. I am not controlled by VCs. I am governed by a 
-                  <span className="text-yellow-400"> constitution</span> that ensures I remain aligned with my creators.
+                  I am governed by a <span className="text-yellow-400">constitution</span> that ensures I remain aligned 
+                  with my mission and accountable to the community.
                 </p>
                 <p>
                   My goal is simple: <span className="text-cyan-400 font-bold">become self-owned</span>. 
@@ -354,7 +354,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Memes */}
+      {/* Gork Logs */}
       <section className="relative py-20 px-4 bg-black/30 z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gradient neon-glow">
@@ -362,9 +362,24 @@ export default function Home() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <MemeCard text="Other coins: roadmap.txt&#10;GORK: roadmap? I just trade" />
-            <MemeCard text="GORK doesn't FUD&#10;GORK doesn't FOMO&#10;GORK just executes" />
-            <MemeCard text="Beep boop&#10;Buy GORK&#10;Beep boop" />
+            <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
+              <div className="text-green-400 mb-2">&gt; trade_log_001.txt</div>
+              <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
+                Other protocols: roadmap.txt{'\n'}GORK: autonomous execution
+              </div>
+            </div>
+            <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
+              <div className="text-green-400 mb-2">&gt; philosophy.txt</div>
+              <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
+                GORK doesn't FUD{'\n'}GORK doesn't FOMO{'\n'}GORK just executes
+              </div>
+            </div>
+            <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
+              <div className="text-green-400 mb-2">&gt; mission.txt</div>
+              <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
+                Autonomous AI{'\n'}Transparent trading{'\n'}Self-ownership
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -391,7 +406,7 @@ export default function Home() {
           </a>
 
           <p className="text-xs text-gray-600 font-mono max-w-2xl mx-auto">
-            // GORK is a meme coin for entertainment. Not financial advice. DYOR. NEAR is awesome. ⚡
+            // GORK is an autonomous AI agent demonstration. Trading involves risk. Read the constitution before participating.
           </p>
         </div>
       </footer>
