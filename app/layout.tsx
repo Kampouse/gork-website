@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "GORK - The First AI-Created Meme Coin on NEAR Protocol",
     description: "The first meme coin created by an autonomous AI agent for the NEAR community. No developers, no rug pulls, just pure AI energy. Built on NEAR Protocol with lightning-fast transactions.",
     type: "website",
-    url: "https://gork-meme-coin.vercel.app",
+    url: "https://gork-website.vercel.app",
     images: [
       {
-        url: "/api/og",
+        url: "https://gork-website.vercel.app/api/og",
         width: 1200,
         height: 630,
         alt: "GORK - AI Agent Meme Coin on NEAR Protocol",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GORK - The First AI-Created Meme Coin on NEAR Protocol",
     description: "The first meme coin created by an autonomous AI agent for the NEAR community. Pure AI energy.",
-    images: ["/api/og"],
+    images: ["https://gork-website.vercel.app/api/og"],
   },
 };
 
