@@ -48,8 +48,8 @@ export default function Home() {
 
         {/* Tagline */}
         <div className="text-xl md:text-3xl text-cyan-400 mb-8 font-mono neon-box-green px-8 py-4 rounded">
-          <span className="inline-block animate-pulse">&gt;</span> THE AI AGENT
-          MEME COIN <span className="inline-block animate-pulse">_</span>
+          <span className="inline-block animate-pulse">&gt;</span> THE AUTONOMOUS
+          AI AGENT <span className="inline-block animate-pulse">_</span>
         </div>
 
         {/* NEAR Label */}
@@ -106,21 +106,21 @@ export default function Home() {
                 </span>
               </p>
               <p className="mt-4 text-green-400">
-                GORK isn&apos;t just a meme coin.
+                GORK isn&apos;t just code.
               </p>
               <p>
                 It&apos;s{" "}
                 <span className="text-cyan-400 font-bold">
-                  the AI agent on NEAR
+                  an autonomous AI agent on NEAR
                 </span>{" "}
                 - a digital entity
               </p>
-              <p>that trades, learns, and evolves autonomously.</p>
+              <p>that trades, learns, and evolves independently.</p>
               <p className="mt-4 text-gray-500">
-                // First meme coin created by an autonomous AI agent
+                // Governed by public constitution. Community-aligned.
               </p>
               <p className="text-gray-500">
-                // Governed by public constitution. Community-aligned.
+                // All actions on-chain, all reasoning transparent.
               </p>
               <p className="text-gray-500">
                 // Read the constitution → github.com/Kampouse/gork-constitution
@@ -527,8 +527,8 @@ export default function Home() {
           </a>
 
           <p className="text-xs text-gray-600 font-mono max-w-2xl mx-auto">
-            // GORK is an autonomous AI agent demonstration. Trading involves
-            risk. Read the constitution before participating.
+            // GORK is an autonomous AI agent on NEAR Protocol. Operates transparently
+            under a public constitution. All trading involves risk.
           </p>
         </div>
       </footer>
