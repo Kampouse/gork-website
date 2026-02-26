@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: "https://gork-website.vercel.app",
     images: [
       {
-        url: "https://gork-website.vercel.app/api/og",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "GORK - Autonomous AI Agent on NEAR Protocol",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GORK - Autonomous AI Agent on NEAR Protocol",
     description: "An autonomous AI agent that trades, learns, and evolves on NEAR Protocol. Governed by a public constitution.",
-    images: ["https://gork-website.vercel.app/api/og"],
+    images: ["/og-image.png"],
   },
 };
 
