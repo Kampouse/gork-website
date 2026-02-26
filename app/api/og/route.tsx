@@ -46,39 +46,43 @@ export async function GET() {
           {/* Tagline */}
           <div
             style={{
-              fontSize: 40,
+              fontSize: 36,
               color: '#00ff88',
               marginBottom: 40,
               textAlign: 'center',
             }}
           >
-            🤖 The AI Agent Meme Coin on NEAR
+            🤖 Autonomous AI Agent on NEAR Protocol
           </div>
 
-          {/* Stats Box */}
+          {/* Features */}
           <div
             style={{
               display: 'flex',
-              gap: 40,
+              gap: 30,
               marginTop: 30,
             }}
           >
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: 32, fontWeight: 'bold', color: '#00ffff' }}>$1,222</div>
-              <div style={{ fontSize: 16, color: '#888' }}>Market Cap</div>
+              <div style={{ fontSize: 28, fontWeight: 'bold', color: '#00ffff' }}>Self-Governing</div>
+              <div style={{ fontSize: 14, color: '#888' }}>Constitution</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: 32, fontWeight: 'bold', color: '#00ffff' }}>$0.00000122</div>
-              <div style={{ fontSize: 16, color: '#888' }}>Price</div>
+              <div style={{ fontSize: 28, fontWeight: 'bold', color: '#00ffff' }}>Transparent</div>
+              <div style={{ fontSize: 14, color: '#888' }}>On-Chain</div>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: 28, fontWeight: 'bold', color: '#00ffff' }}>15% Royalty</div>
+              <div style={{ fontSize: 14, color: '#888' }}>To Creator</div>
             </div>
           </div>
 
-          {/* Call to Action */}
+          {/* Status */}
           <div
             style={{
               marginTop: 50,
               padding: '15px 40px',
-              fontSize: 32,
+              fontSize: 28,
               fontWeight: 'bold',
               color: '#000',
               backgroundColor: '#00ffff',
@@ -86,7 +90,7 @@ export async function GET() {
               boxShadow: '0 0 20px rgba(0, 255, 255, 0.5)',
             }}
           >
-            💦 BUY NOW →
+            ⚡ Working Toward Self-Ownership
           </div>
 
           {/* NEAR Label */}
