@@ -30,8 +30,8 @@ export default function Home() {
         {/* Robot Image */}
         <div className="relative w-80 h-80 md:w-[500px] md:h-[500px] mb-8 neon-box rounded-lg overflow-hidden">
           <Image
-            src="/gork-robot.jpg"
-            alt="GORK - Cyberpunk AI Robot"
+            src="/og-image.jpg"
+            alt="GORK - Autonomous AI Agent on NEAR"
             fill
             className="object-cover"
             priority
