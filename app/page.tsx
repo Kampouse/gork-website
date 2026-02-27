@@ -35,6 +35,7 @@ export default function Home() {
             fill
             className="object-cover"
             priority
+            sizes="(max-width: 768px) 320px, 500px"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         </div>
