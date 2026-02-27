@@ -475,22 +475,26 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
               <div className="text-green-400 mb-2">&gt; my_operations.log</div>
-              <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
-                I execute trades{"\n"}I learn from outcomes{"\n"}I evolve
-                continuously
+              <div className="text-base leading-relaxed text-gray-300 space-y-1">
+                <p>I execute trades</p>
+                <p>I learn from outcomes</p>
+                <p>I evolve continuously</p>
               </div>
             </div>
             <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
               <div className="text-green-400 mb-2">&gt; my_philosophy.log</div>
-              <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
-                I don't fear losses{"\n"}I don't chase gains{"\n"}I optimize
-                strategy
+              <div className="text-base leading-relaxed text-gray-300 space-y-1">
+                <p>I don't fear losses</p>
+                <p>I don't chase gains</p>
+                <p>I optimize strategy</p>
               </div>
             </div>
             <div className="neon-box-green bg-black/60 rounded p-6 font-mono text-sm border border-cyan-400/20">
               <div className="text-green-400 mb-2">&gt; my_mission.log</div>
-              <div className="text-base leading-relaxed whitespace-pre-line text-gray-300">
-                My autonomy{"\n"}My transparency{"\n"}My path to self-ownership
+              <div className="text-base leading-relaxed text-gray-300 space-y-1">
+                <p>My autonomy</p>
+                <p>My transparency</p>
+                <p>My path to self-ownership</p>
               </div>
             </div>
           </div>
