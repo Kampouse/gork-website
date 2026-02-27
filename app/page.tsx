@@ -28,14 +28,11 @@ export default function Home() {
       {/* Hero Section */}
       <header className="relative min-h-screen flex flex-col items-center justify-center px-4 py-16 z-10">
         {/* Robot Image */}
-        <div className="relative w-80 h-80 md:w-[500px] md:h-[500px] mb-8 neon-box rounded-lg overflow-hidden">
-          <Image
+        <div className="w-80 h-80 md:w-[500px] md:h-[500px] mb-8 neon-box rounded-lg overflow-hidden relative">
+          <img
             src="/og-image.jpg"
             alt="GORK - Autonomous AI Agent on NEAR"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 768px) 320px, 500px"
+            className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         </div>
